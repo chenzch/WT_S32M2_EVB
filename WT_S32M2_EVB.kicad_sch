@@ -1,0 +1,285 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f3c2d9-d731-4e2a-87ad-2397b2018769")
+	)
+	(wire
+		(pts
+			(xy 121.92 93.98) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e5f6e3b-e445-4aa1-99df-fac2bcd41a60")
+	)
+	(wire
+		(pts
+			(xy 121.92 88.9) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe30117-8031-4b3a-95bd-2d2a8db028b8")
+	)
+	(wire
+		(pts
+			(xy 121.92 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0063b7-9687-4a62-be47-223dcbf09bb5")
+	)
+	(sheet
+		(at 88.9 110.49)
+		(size 34.29 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c240732-cebd-49ce-8c70-8414d73a96cd")
+		(property "Sheetname" "USB UART"
+			(at 88.9 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usbuart.kicad_sch"
+			(at 88.9 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WT_S32M2_EVB"
+				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 77.47)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c3290ce-5f3c-4184-9870-079dbad05207")
+		(property "Sheetname" "JTAG"
+			(at 88.9 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag.kicad_sch"
+			(at 88.9 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWCLK" output
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d34a767-1b59-41dc-9504-4349f0dd0e27")
+		)
+		(pin "RESET" output
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6b2e2ca6-7c7a-4c10-9f2e-b9a67eae58a2")
+		)
+		(pin "SWO" input
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6cf096f5-322a-41cf-875c-9f04cd6abb9b")
+		)
+		(pin "SWDIO" bidirectional
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "09bce8f7-e6cf-4b85-9357-fb00a7d65164")
+		)
+		(instances
+			(project "WT_S32M2_EVB"
+				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 77.47)
+		(size 29.21 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da28dace-7d53-4f2a-8373-537b4b550ead")
+		(property "Sheetname" "MCUPower"
+			(at 181.61 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_power.kicad_sch"
+			(at 181.61 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WT_S32M2_EVB"
+				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 77.47)
+		(size 39.37 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8764e8e-6399-4e7a-a72c-1c1b3d72ab38")
+		(property "Sheetname" "MCU"
+			(at 133.35 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 133.35 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWCLK" input
+			(at 133.35 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "448890c1-6a73-4b34-a193-c991a06c934f")
+		)
+		(pin "SWO" output
+			(at 133.35 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7391c25f-cbfd-484c-bf85-21e898576cb4")
+		)
+		(pin "SWDIO" bidirectional
+			(at 133.35 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "067873da-790e-475f-a3b8-4ce1d2a0b626")
+		)
+		(pin "RESET" input
+			(at 133.35 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "013ef4eb-459a-4b80-bb9c-68294e3366f7")
+		)
+		(instances
+			(project "WT_S32M2_EVB"
+				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
