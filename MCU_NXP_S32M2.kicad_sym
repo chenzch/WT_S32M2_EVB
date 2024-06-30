@@ -2,6 +2,253 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
+	(symbol "ARM_10P"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 1.27 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 10.16 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical"
+			(at 10.16 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 10.16 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 10.16 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ARM_10P_1_0"
+			(rectangle
+				(start 0 17.78)
+				(end 16.51 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "ARM_10P_1_1"
+			(pin power_in line
+				(at -2.54 13.97 0)
+				(length 2.54)
+				(name "TVCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 19.05 3.81 180)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 13.97 180)
+				(length 2.54)
+				(name "TMS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SWDIO" bidirectional line)
+			)
+			(pin power_in line
+				(at -2.54 11.43 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 19.05 11.43 180)
+				(length 2.54)
+				(name "TCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SWCLK" output line)
+			)
+			(pin power_in line
+				(at -2.54 8.89 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 19.05 8.89 180)
+				(length 2.54)
+				(name "TDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SWO" output line)
+			)
+			(pin passive line
+				(at -2.54 6.35 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DBG" bidirectional line)
+			)
+			(pin output line
+				(at 19.05 6.35 180)
+				(length 2.54)
+				(name "TDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 3.81 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "CH224K"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -271,7 +518,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.382 39.624 0)
+			(at -8.382 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -366,8 +613,8 @@
 		)
 		(symbol "S32M242CCABMKHST_1_0"
 			(rectangle
-				(start -12.7 38.1)
-				(end 12.7 0)
+				(start -12.7 37.846)
+				(end 11.176 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -377,7 +624,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 25.4 0)
+				(at -17.78 26.67 0)
 				(length 5.08)
 				(name "PTA15"
 					(effects
@@ -393,9 +640,12 @@
 						)
 					)
 				)
+				(alternate "ADC1_SE12" input line)
+				(alternate "FTM1_CH2" bidirectional line)
+				(alternate "LPSPI0_PCS3" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -17.78 27.94 0)
+				(at -17.78 29.21 0)
 				(length 5.08)
 				(name "PTA10"
 					(effects
@@ -411,9 +661,12 @@
 						)
 					)
 				)
+				(alternate "FTM1_CH4" bidirectional line)
+				(alternate "FXIO_D0" bidirectional line)
+				(alternate "JTAG_TDO/TRACE_SWO" output line)
 			)
 			(pin bidirectional line
-				(at -17.78 30.48 0)
+				(at -17.78 31.75 0)
 				(length 5.08)
 				(name "PTA5"
 					(effects
@@ -429,9 +682,11 @@
 						)
 					)
 				)
+				(alternate "RESET_b" bidirectional line)
+				(alternate "TCLK1" input line)
 			)
 			(pin bidirectional line
-				(at -17.78 33.02 0)
+				(at -17.78 34.29 0)
 				(length 5.08)
 				(name "PTA4"
 					(effects
@@ -447,9 +702,12 @@
 						)
 					)
 				)
+				(alternate "CMP0_OUT" output line)
+				(alternate "EWM_OUT_b" output line)
+				(alternate "JTAG_TMS/SWD_DIO" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -17.78 15.24 0)
+				(at -17.78 16.51 0)
 				(length 5.08)
 				(name "PTB7"
 					(effects
@@ -465,9 +723,11 @@
 						)
 					)
 				)
+				(alternate "EXTAL" input line)
+				(alternate "LPI2C0_SCL" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -17.78 17.78 0)
+				(at -17.78 19.05 0)
 				(length 5.08)
 				(name "PTB6"
 					(effects
@@ -483,9 +743,11 @@
 						)
 					)
 				)
+				(alternate "LPI2C0_SDA" bidirectional line)
+				(alternate "XTAL" output line)
 			)
 			(pin bidirectional line
-				(at -17.78 20.32 0)
+				(at -17.78 21.59 0)
 				(length 5.08)
 				(name "PTB5"
 					(effects
@@ -501,9 +763,14 @@
 						)
 					)
 				)
+				(alternate "CLKOUT" output line)
+				(alternate "FTM0_CH5" bidirectional line)
+				(alternate "LPSPI0_PCS0" bidirectional line)
+				(alternate "LPSPI0_PCS1" bidirectional line)
+				(alternate "TRGMUX_IN0" input line)
 			)
 			(pin bidirectional line
-				(at -17.78 22.86 0)
+				(at -17.78 24.13 0)
 				(length 5.08)
 				(name "PTB4"
 					(effects
@@ -519,12 +786,89 @@
 						)
 					)
 				)
+				(alternate "FTM0_CH4" bidirectional line)
+				(alternate "LPSPI0_SOUT" bidirectional line)
+				(alternate "TRGMUX_IN1" input line)
+			)
+		)
+		(symbol "S32M242CCABMKHST_1_1"
+			(pin power_in line
+				(at -17.78 3.81 0)
+				(length 5.08)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -17.78 8.89 0)
+				(length 5.08)
+				(name "CANL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -17.78 11.43 0)
+				(length 5.08)
+				(name "CANH"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 6.35 0)
+				(length 5.08)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
 			)
 		)
 		(symbol "S32M242CCABMKHST_2_0"
 			(rectangle
-				(start -12.7 38.1)
-				(end 12.7 0)
+				(start -12.7 37.592)
+				(end 8.382 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -534,7 +878,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 20.32 0)
+				(at -17.78 21.59 0)
 				(length 5.08)
 				(name "PTC5"
 					(effects
@@ -550,9 +894,13 @@
 						)
 					)
 				)
+				(alternate "FTM2_CH0" bidirectional line)
+				(alternate "FTM2_QD_PHB" input line)
+				(alternate "JTAG_TDI" input line)
+				(alternate "RTC_CLKOUT" output line)
 			)
 			(pin bidirectional line
-				(at -17.78 22.86 0)
+				(at -17.78 24.13 0)
 				(length 5.08)
 				(name "PTC4"
 					(effects
@@ -568,9 +916,15 @@
 						)
 					)
 				)
+				(alternate "CMP0_IN2" input line)
+				(alternate "EWM_IN" input line)
+				(alternate "FTM1_CH0" bidirectional line)
+				(alternate "FTM1_QD_PHB" input line)
+				(alternate "JTAG_TCLK/SWD_CLK" input line)
+				(alternate "RTC_CLKOUT" output line)
 			)
 			(pin bidirectional line
-				(at -17.78 25.4 0)
+				(at -17.78 26.67 0)
 				(length 5.08)
 				(name "PTC3"
 					(effects
@@ -586,9 +940,14 @@
 						)
 					)
 				)
+				(alternate "ADC0_SE11" input line)
+				(alternate "CAN0_TX" output line)
+				(alternate "CMP0_IN4" input line)
+				(alternate "FTM0_CH3" bidirectional line)
+				(alternate "LPUART0_TX" output line)
 			)
 			(pin bidirectional line
-				(at -17.78 27.94 0)
+				(at -17.78 29.21 0)
 				(length 5.08)
 				(name "PTC2"
 					(effects
@@ -604,9 +963,14 @@
 						)
 					)
 				)
+				(alternate "ADC0_SE10" input line)
+				(alternate "CAN0_RX" input line)
+				(alternate "CMP0_IN5" input line)
+				(alternate "FTM0_CH2" bidirectional line)
+				(alternate "LPUART0_RX" input line)
 			)
 			(pin bidirectional line
-				(at -17.78 30.48 0)
+				(at -17.78 31.75 0)
 				(length 5.08)
 				(name "PTC1"
 					(effects
@@ -622,9 +986,12 @@
 						)
 					)
 				)
+				(alternate "ADC0_SE9" input line)
+				(alternate "FTM0_CH1" bidirectional line)
+				(alternate "FTM1_CH7" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -17.78 33.02 0)
+				(at -17.78 34.29 0)
 				(length 5.08)
 				(name "PTC0"
 					(effects
@@ -640,9 +1007,12 @@
 						)
 					)
 				)
+				(alternate "ADC0_SE8" input line)
+				(alternate "FTM0_CH0" bidirectional line)
+				(alternate "FTM1_CH6" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -17.78 17.78 0)
+				(at -17.78 19.05 0)
 				(length 5.08)
 				(name "RESET_B"
 					(effects
@@ -662,8 +1032,8 @@
 		)
 		(symbol "S32M242CCABMKHST_3_0"
 			(rectangle
-				(start -12.7 38.1)
-				(end 12.7 0)
+				(start -12.7 37.846)
+				(end 0 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -673,7 +1043,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 17.78 0)
+				(at -17.78 15.24 0)
 				(length 5.08)
 				(name "PTE6"
 					(effects
@@ -689,9 +1059,13 @@
 						)
 					)
 				)
+				(alternate "ADC1_SE11" input line)
+				(alternate "FTM3_CH7" bidirectional line)
+				(alternate "LPSPI0_PCS2" bidirectional line)
+				(alternate "LPUART1_RTS" output line)
 			)
 			(pin bidirectional line
-				(at -17.78 25.4 0)
+				(at -17.78 22.86 0)
 				(length 5.08)
 				(name "PTE2"
 					(effects
@@ -707,9 +1081,14 @@
 						)
 					)
 				)
+				(alternate "ADC1_SE10" input line)
+				(alternate "FTM3_CH6" bidirectional line)
+				(alternate "LPSPI0_SOUT" bidirectional line)
+				(alternate "LPTMR0_ALT3" input line)
+				(alternate "LPUART1_CTS" input line)
 			)
 			(pin bidirectional line
-				(at -17.78 10.16 0)
+				(at -17.78 7.62 0)
 				(length 5.08)
 				(name "PTE16"
 					(effects
@@ -725,9 +1104,13 @@
 						)
 					)
 				)
+				(alternate "FTM2_CH7" bidirectional line)
+				(alternate "FXIO_D3" bidirectional line)
+				(alternate "LPUART1_RTS" output line)
+				(alternate "TRGMUX_OUT7" output line)
 			)
 			(pin bidirectional line
-				(at -17.78 12.7 0)
+				(at -17.78 10.16 0)
 				(length 5.08)
 				(name "PTE15"
 					(effects
@@ -743,9 +1126,13 @@
 						)
 					)
 				)
+				(alternate "FTM2_CH6" bidirectional line)
+				(alternate "FXIO_D2" bidirectional line)
+				(alternate "LPUART1_CTS" input line)
+				(alternate "TRGMUX_OUT6" output line)
 			)
 			(pin bidirectional line
-				(at -17.78 33.02 0)
+				(at -17.78 30.48 0)
 				(length 5.08)
 				(name "PTD1"
 					(effects
@@ -761,9 +1148,14 @@
 						)
 					)
 				)
+				(alternate "FTM0_CH3" bidirectional line)
+				(alternate "FTM2_CH1" bidirectional line)
+				(alternate "FXIO_D1" bidirectional line)
+				(alternate "LPSPI1_SIN" bidirectional line)
+				(alternate "TRGMUX_OUT2" output line)
 			)
 			(pin bidirectional line
-				(at -17.78 35.56 0)
+				(at -17.78 33.02 0)
 				(length 5.08)
 				(name "PTD0"
 					(effects
@@ -779,9 +1171,14 @@
 						)
 					)
 				)
+				(alternate "FTM0_CH2" bidirectional line)
+				(alternate "FTM2_CH0" bidirectional line)
+				(alternate "FXIO_D0" bidirectional line)
+				(alternate "LPSPI1_SCK" bidirectional line)
+				(alternate "TRGMUX_OUT1" output line)
 			)
 			(pin bidirectional line
-				(at -17.78 15.24 0)
+				(at -17.78 12.7 0)
 				(length 5.08)
 				(name "PTE11"
 					(effects
@@ -797,9 +1194,13 @@
 						)
 					)
 				)
+				(alternate "FTM2_CH5" bidirectional line)
+				(alternate "FXIO_D5" bidirectional line)
+				(alternate "LPTMR0_ALT1" input line)
+				(alternate "TRGMUX_OUT5" output line)
 			)
 			(pin bidirectional line
-				(at -17.78 20.32 0)
+				(at -17.78 17.78 0)
 				(length 5.08)
 				(name "PTE5"
 					(effects
@@ -815,9 +1216,15 @@
 						)
 					)
 				)
+				(alternate "CAN0_TX" output line)
+				(alternate "EWM_IN" input line)
+				(alternate "FTM2_CH3" bidirectional line)
+				(alternate "FTM2_QD_PHA" input line)
+				(alternate "FXIO_D7" bidirectional line)
+				(alternate "TCLK2" input line)
 			)
 			(pin bidirectional line
-				(at -17.78 22.86 0)
+				(at -17.78 20.32 0)
 				(length 5.08)
 				(name "PTE4"
 					(effects
@@ -833,9 +1240,14 @@
 						)
 					)
 				)
+				(alternate "CAN0_RX" input line)
+				(alternate "EWM_OUT_b" output line)
+				(alternate "FTM2_CH2" bidirectional line)
+				(alternate "FTM2_QD_PHB" input line)
+				(alternate "FXIO_D6" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -17.78 27.94 0)
+				(at -17.78 25.4 0)
 				(length 5.08)
 				(name "PTD16"
 					(effects
@@ -851,9 +1263,12 @@
 						)
 					)
 				)
+				(alternate "CMP0_RRT" output line)
+				(alternate "FTM0_CH1" bidirectional line)
+				(alternate "LPSPI0_SIN" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -17.78 30.48 0)
+				(at -17.78 27.94 0)
 				(length 5.08)
 				(name "PTD15"
 					(effects
@@ -869,6 +1284,8 @@
 						)
 					)
 				)
+				(alternate "FTM0_CH0" bidirectional line)
+				(alternate "LPSPI0_SCK" bidirectional line)
 			)
 		)
 		(symbol "S32M242CCABMKHST_4_0"
@@ -1172,7 +1589,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 23.114 180)
+				(at 12.7 22.86 180)
 				(length 5.08)
 				(name "LS2"
 					(effects
@@ -1190,7 +1607,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 25.654 180)
+				(at 12.7 25.4 180)
 				(length 5.08)
 				(name "LG2"
 					(effects
@@ -1208,7 +1625,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 28.194 180)
+				(at 12.7 27.94 180)
 				(length 5.08)
 				(name "HS2"
 					(effects
@@ -1226,7 +1643,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 30.734 180)
+				(at 12.7 30.48 180)
 				(length 5.08)
 				(name "HG2"
 					(effects
@@ -1244,7 +1661,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 33.274 180)
+				(at 12.7 33.02 180)
 				(length 5.08)
 				(name "VBS2"
 					(effects
@@ -1280,58 +1697,30 @@
 				)
 			)
 		)
-	)
-	(symbol "SWD_6P"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "J"
-			(at 0.762 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(symbol "S32M242CCABMKHST_4_1"
+			(pin bidirectional line
+				(at 12.7 17.78 180)
+				(length 5.08)
+				(name "HVI"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "SWD_6P_1_0"
+		(symbol "S32M242CCABMKHST_5_0"
 			(rectangle
-				(start 0 20.32)
-				(end 10.16 0)
+				(start -12.7 37.846)
+				(end 0 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1340,112 +1729,220 @@
 					(type background)
 				)
 			)
-		)
-		(symbol "SWD_6P_1_1"
 			(pin power_in line
-				(at -2.54 16.51 0)
-				(length 2.54)
-				(name "VTref"
+				(at -17.78 34.29 0)
+				(length 5.08)
+				(name "VDD"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "25"
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 13.97 0)
-				(length 2.54)
-				(name "SWDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -2.54 11.43 0)
-				(length 2.54)
-				(name "SWCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 8.89 0)
-				(length 2.54)
-				(name "SWO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output inverted
-				(at -2.54 6.35 0)
-				(length 2.54)
-				(name "nRST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -2.54 3.81 0)
-				(length 2.54)
-				(name "GND"
+				(at -17.78 31.75 0)
+				(length 5.08)
+				(name "VDDA"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 29.21 0)
+				(length 5.08)
+				(name "VREFH"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 19.05 0)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 24.13 0)
+				(length 5.08)
+				(name "VSUP"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 16.51 0)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 13.97 0)
+				(length 5.08)
+				(name "VPRE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 26.67 0)
+				(length 5.08)
+				(name "VDD_AE10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "S32M242CCABMKHST_5_1"
+			(pin bidirectional line
+				(at -17.78 3.81 0)
+				(length 5.08)
+				(name "BST"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 21.59 0)
+				(length 5.08)
+				(name "VDDE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "VLS_OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 6.35 0)
+				(length 5.08)
+				(name "GCTL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)

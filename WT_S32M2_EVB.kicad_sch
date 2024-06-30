@@ -7,33 +7,33 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 121.92 86.36) (xy 133.35 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24f3c2d9-d731-4e2a-87ad-2397b2018769")
-	)
-	(wire
-		(pts
-			(xy 121.92 93.98) (xy 133.35 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e5f6e3b-e445-4aa1-99df-fac2bcd41a60")
-	)
-	(wire
-		(pts
 			(xy 121.92 88.9) (xy 133.35 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fe30117-8031-4b3a-95bd-2d2a8db028b8")
+		(uuid "1f7fde61-4c36-474e-a00c-031e7c8a853c")
+	)
+	(wire
+		(pts
+			(xy 121.92 96.52) (xy 133.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a30b568-7d7c-4387-9493-358e628f83b0")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8628cce1-3931-49ed-b51c-18cadc0dc625")
 	)
 	(wire
 		(pts
@@ -43,7 +43,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ae0063b7-9687-4a62-be47-223dcbf09bb5")
+		(uuid "9990dcde-6cd3-4134-a950-db1700d8e7d4")
+	)
+	(wire
+		(pts
+			(xy 121.92 93.98) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8692606-9031-41a4-9a35-c9103ad2c32e")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 133.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdad79eb-fbe8-42af-910b-4a30ba44201c")
 	)
 	(sheet
 		(at 88.9 110.49)
@@ -113,15 +133,45 @@
 				(justify left top)
 			)
 		)
-		(pin "SWCLK" output
-			(at 121.92 88.9 0)
+		(pin "DBG" input
+			(at 121.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7d34a767-1b59-41dc-9504-4349f0dd0e27")
+			(uuid "5fe4e069-4dd6-4049-b7c0-1a8c0a447c97")
+		)
+		(pin "TCK" output
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3c531d1b-0c4e-4a57-a971-34978f7a6e4f")
+		)
+		(pin "TMS" bidirectional
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c469d43d-a41d-4457-9915-2534ef1a9980")
+		)
+		(pin "TDO" output
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "395a9aa4-28dd-409c-9dc9-22f35cfd7bbf")
 		)
 		(pin "RESET" output
 			(at 121.92 93.98 0)
@@ -131,27 +181,17 @@
 				)
 				(justify right)
 			)
-			(uuid "6b2e2ca6-7c7a-4c10-9f2e-b9a67eae58a2")
+			(uuid "25e76181-687f-4d41-8c81-437b9f57666d")
 		)
-		(pin "SWO" input
-			(at 121.92 91.44 0)
+		(pin "TDI" input
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6cf096f5-322a-41cf-875c-9f04cd6abb9b")
-		)
-		(pin "SWDIO" bidirectional
-			(at 121.92 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "09bce8f7-e6cf-4b85-9357-fb00a7d65164")
+			(uuid "1f9b0e4b-531a-4ac5-8dd8-34b43e1dcc97")
 		)
 		(instances
 			(project "WT_S32M2_EVB"
@@ -229,35 +269,15 @@
 				(justify left top)
 			)
 		)
-		(pin "SWCLK" input
-			(at 133.35 88.9 180)
+		(pin "DBG" output
+			(at 133.35 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "448890c1-6a73-4b34-a193-c991a06c934f")
-		)
-		(pin "SWO" output
-			(at 133.35 91.44 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7391c25f-cbfd-484c-bf85-21e898576cb4")
-		)
-		(pin "SWDIO" bidirectional
-			(at 133.35 86.36 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "067873da-790e-475f-a3b8-4ce1d2a0b626")
+			(uuid "2f22d27e-6beb-4f16-84e0-0b1c07254cb5")
 		)
 		(pin "RESET" input
 			(at 133.35 93.98 180)
@@ -267,7 +287,47 @@
 				)
 				(justify left)
 			)
-			(uuid "013ef4eb-459a-4b80-bb9c-68294e3366f7")
+			(uuid "7191c177-b0d4-4beb-8f56-978b08284825")
+		)
+		(pin "TDI" output
+			(at 133.35 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "91365b73-f23e-4595-9e0d-fc853f2dc5d7")
+		)
+		(pin "TDO" input
+			(at 133.35 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bbc726ea-4981-4ade-bba9-75d978ccd9f6")
+		)
+		(pin "TCK" input
+			(at 133.35 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "574f061b-0795-41e2-8385-7840f168194a")
+		)
+		(pin "TMS" bidirectional
+			(at 133.35 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ee2da0f7-eb79-49b1-a284-ceebd3a16e2e")
 		)
 		(instances
 			(project "WT_S32M2_EVB"

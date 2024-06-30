@@ -1000,7 +1000,7 @@
 				)
 			)
 		)
-		(symbol "MCU_NXP_M2:CH224K"
+		(symbol "MCU_NXP_S32M2:CH224K"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1599,12 +1599,6 @@
 		(uuid "46a5ebfe-e1d1-4b5e-a6f5-82f35884f844")
 	)
 	(junction
-		(at 176.53 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61f42927-2b2c-4edb-971a-f52286318bfb")
-	)
-	(junction
 		(at 115.57 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1623,10 +1617,22 @@
 		(uuid "7f3f3e7a-1afd-46a3-aae5-fd0e6ab4ba65")
 	)
 	(junction
+		(at 121.92 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80b3d500-68cc-45e3-b5f2-421edb61e1c4")
+	)
+	(junction
 		(at 182.88 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bea6239-d989-4d19-9a14-2bc326885b33")
+	)
+	(junction
+		(at 209.55 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf00a70-a73e-423d-83cd-4ce673d326b6")
 	)
 	(junction
 		(at 190.5 87.63)
@@ -1675,6 +1681,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee5c565b-14f0-4d04-8b47-686b28f7922f")
+	)
+	(junction
+		(at 198.12 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eebd5aec-7b53-441f-9864-15450960a0cd")
+	)
+	(no_connect
+		(at 154.94 107.95)
+		(uuid "291bb910-d818-4b34-b61e-736c2b08d576")
+	)
+	(no_connect
+		(at 154.94 105.41)
+		(uuid "7332b7fa-3168-412b-8245-14056f027f29")
+	)
+	(no_connect
+		(at 177.8 102.87)
+		(uuid "c11f4cb8-92bf-4bd7-973a-963f8f48d971")
 	)
 	(wire
 		(pts
@@ -1768,13 +1792,33 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 87.63) (xy 176.53 87.63)
+			(xy 205.74 105.41) (xy 198.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e82c399-267e-4949-838e-ba54a0ddbfcf")
+	)
+	(wire
+		(pts
+			(xy 152.4 87.63) (xy 182.88 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "477f1d2c-a2ec-41aa-a171-42ccc49fe595")
+	)
+	(wire
+		(pts
+			(xy 121.92 102.87) (xy 125.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3cef52-cab9-42de-acde-b5c8a548df84")
 	)
 	(wire
 		(pts
@@ -1818,7 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 102.87) (xy 125.73 102.87)
+			(xy 118.11 102.87) (xy 121.92 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1878,7 +1922,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 107.95) (xy 205.74 105.41)
+			(xy 214.63 107.95) (xy 214.63 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1908,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 107.95) (xy 205.74 107.95)
+			(xy 177.8 107.95) (xy 209.55 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1988,6 +2032,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 107.95) (xy 214.63 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6e27b4-a812-42c3-8268-5ac1dd00992e")
+	)
+	(wire
+		(pts
 			(xy 198.12 87.63) (xy 190.5 87.63)
 		)
 		(stroke
@@ -2038,6 +2092,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 93.98) (xy 214.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12beebd-cc15-4477-b89f-9791206be898")
+	)
+	(wire
+		(pts
 			(xy 146.05 115.57) (xy 146.05 119.38)
 		)
 		(stroke
@@ -2045,6 +2109,16 @@
 			(type default)
 		)
 		(uuid "eb03b172-1fa9-4994-b575-d827fdad8b20")
+	)
+	(wire
+		(pts
+			(xy 205.74 97.79) (xy 205.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece9501b-be00-47d7-a1b9-a41ab1ff7273")
 	)
 	(wire
 		(pts
@@ -2065,16 +2139,6 @@
 			(type default)
 		)
 		(uuid "f5012484-9448-48b8-b3b3-2b5d465e5cc5")
-	)
-	(wire
-		(pts
-			(xy 176.53 87.63) (xy 152.4 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8489ba8-c245-45cc-919e-d16d402e6351")
 	)
 	(wire
 		(pts
@@ -2105,6 +2169,28 @@
 			(type default)
 		)
 		(uuid "fe252baf-75ba-49e4-976e-a4d2e4fae393")
+	)
+	(label "VDDUSB"
+		(at 147.32 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dec1cce-1753-4cfc-9084-781ede17e6b5")
+	)
+	(label "VDDUSB"
+		(at 205.74 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6247df6d-6fe8-416c-896f-d59622a6da88")
 	)
 	(label "OGND"
 		(at 104.14 87.63 0)
@@ -2178,6 +2264,77 @@
 			(project "WT_S32M2_EVB"
 				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d/0c240732-cebd-49ce-8c70-8414d73a96cd"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 205.74 92.71 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0573fb27-f10e-4f6b-9a6c-acd97bc87613")
+		(property "Reference" "JP6"
+			(at 208.28 93.9801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 208.28 91.4401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 205.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 205.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "291ad649-de15-4e75-b778-5734967883b2")
+		)
+		(pin "2"
+			(uuid "43dc82e7-5a13-4cc4-864b-68c616e06a42")
+		)
+		(instances
+			(project "WT_S32M2_EVB"
+				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d/0c240732-cebd-49ce-8c70-8414d73a96cd"
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -2607,6 +2764,101 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_NXP_S32M2:CH224K")
+		(at 165.1 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "676a4e1c-cf34-41ca-badf-6b938cce5b17")
+		(property "Reference" "U1"
+			(at 166.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH224K"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm_ThermalVias"
+			(at 165.1 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://taoic.oss-cn-hangzhou.aliyuncs.com/8417/product/JTDZ88888_1619177571000.pdf"
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fa3ad8ab-d13a-4f6c-b0fc-855b42d5ed5d")
+		)
+		(pin "4"
+			(uuid "8b84467e-1d3c-4494-85df-b61fac24c007")
+		)
+		(pin "9"
+			(uuid "3e1f45a4-49f4-4bdf-aece-a424361ba5eb")
+		)
+		(pin "6"
+			(uuid "3f82a01d-6e78-4a33-a801-c46939cfbdee")
+		)
+		(pin "1"
+			(uuid "75dea644-2884-43d4-9359-bc1c562115f6")
+		)
+		(pin "10"
+			(uuid "ac68e0cf-0d29-4405-8636-4c5f5b2a836b")
+		)
+		(pin "2"
+			(uuid "e6a4798a-bf74-49fd-8f04-e32146033929")
+		)
+		(pin "0"
+			(uuid "7533a3f0-c5fb-47fa-b630-3fffe2a2dbc8")
+		)
+		(pin "3"
+			(uuid "f53b24d1-d3f2-45da-9806-75a9aee57142")
+		)
+		(pin "7"
+			(uuid "a475d19a-a0b6-43b7-85ed-963026314b41")
+		)
+		(pin "8"
+			(uuid "3f561048-4544-4ab8-8f48-9d52640bab1e")
+		)
+		(instances
+			(project ""
+				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d/0c240732-cebd-49ce-8c70-8414d73a96cd"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 182.88 92.71 270)
 		(mirror x)
@@ -2672,6 +2924,72 @@
 			(project "WT_S32M2_EVB"
 				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d/0c240732-cebd-49ce-8c70-8414d73a96cd"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 121.92 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74325f30-a543-450a-8ef5-fcefec86c30b")
+		(property "Reference" "#FLG017"
+			(at 121.92 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 121.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "952b4b45-c21a-4f31-9d84-aa2058b3b50b")
+		)
+		(instances
+			(project "WT_S32M2_EVB"
+				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d/0c240732-cebd-49ce-8c70-8414d73a96cd"
+					(reference "#FLG017")
 					(unit 1)
 				)
 			)
@@ -2748,6 +3066,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 209.55 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "783b300f-82b3-45c2-a72c-a3032a65fcbb")
+		(property "Reference" "#FLG018"
+			(at 209.55 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 209.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 209.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90961e7e-417a-484f-b3e7-d61ccc3736f4")
+		)
+		(instances
+			(project "WT_S32M2_EVB"
+				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d/0c240732-cebd-49ce-8c70-8414d73a96cd"
+					(reference "#FLG018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
 		(at 102.87 110.49 0)
 		(unit 1)
@@ -2773,7 +3157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal"
 			(at 106.68 107.95 0)
 			(effects
 				(font
@@ -3116,77 +3500,6 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 176.53 92.71 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab3fd38b-2fce-41f3-b234-a5e1d321f003")
-		(property "Reference" "JP6"
-			(at 179.07 93.9801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20V"
-			(at 179.07 91.4401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82c7c1d0-ba8f-48c1-845e-4755d0dc3afa")
-		)
-		(pin "2"
-			(uuid "af82d0e6-eb03-4507-9202-17f199e56e40")
-		)
-		(instances
-			(project "WT_S32M2_EVB"
-				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d/0c240732-cebd-49ce-8c70-8414d73a96cd"
-					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
 		(at 198.12 92.71 270)
 		(mirror x)
 		(unit 1)
@@ -3251,101 +3564,6 @@
 			(project "WT_S32M2_EVB"
 				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d/0c240732-cebd-49ce-8c70-8414d73a96cd"
 					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_NXP_M2:CH224K")
-		(at 165.1 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c36f48aa-0645-4889-a978-70681d7e794b")
-		(property "Reference" "U1"
-			(at 166.37 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CH224K"
-			(at 166.37 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm_ThermalVias"
-			(at 165.1 120.396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://taoic.oss-cn-hangzhou.aliyuncs.com/8417/product/JTDZ88888_1619177571000.pdf"
-			(at 165.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "38d7d9ed-f23b-40ad-8f7f-dfa1258d6172")
-		)
-		(pin "4"
-			(uuid "02160a7c-a930-42b8-9572-e4c175988670")
-		)
-		(pin "7"
-			(uuid "76c6a413-599b-41f1-9a08-04c35f811b04")
-		)
-		(pin "5"
-			(uuid "ebdbe2ea-c2b2-4e8f-877f-f782a2cd1783")
-		)
-		(pin "3"
-			(uuid "52112dd5-8291-4342-a2e6-b4b34e2b0452")
-		)
-		(pin "1"
-			(uuid "05eeeec0-7585-40e5-b622-f42e34b34578")
-		)
-		(pin "9"
-			(uuid "8e7fb2bb-ccac-40ee-8162-3b7a73e21f39")
-		)
-		(pin "10"
-			(uuid "d0412d96-f649-4789-adf3-fc2d08acd234")
-		)
-		(pin "2"
-			(uuid "7f83e85a-8158-48c2-90a7-680afc3eb981")
-		)
-		(pin "8"
-			(uuid "9edbab00-5203-4e64-bc74-b2647d3b92ae")
-		)
-		(pin "0"
-			(uuid "66539e6a-85f7-4168-a553-f69797868714")
-		)
-		(instances
-			(project ""
-				(path "/70782c2d-fff2-4b7e-bc9f-3ed3b0dfc12d/0c240732-cebd-49ce-8c70-8414d73a96cd"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3491,7 +3709,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 101.6 0)
+		(at 214.63 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3500,7 +3718,7 @@
 		(fields_autoplaced yes)
 		(uuid "fabd38b9-1d30-491a-b00e-bec7f1501478")
 		(property "Reference" "R11"
-			(at 208.28 100.3299 0)
+			(at 217.17 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3727,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 208.28 102.8699 0)
+			(at 217.17 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3736,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 203.962 101.6 90)
+			(at 212.852 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3745,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 101.6 0)
+			(at 214.63 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3754,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 205.74 101.6 0)
+			(at 214.63 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +3779,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 205.74 97.79 0)
+		(at 214.63 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3570,7 +3788,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd05c871-9514-472b-85b7-798517b70d76")
 		(property "Reference" "#PWR03"
-			(at 205.74 101.6 0)
+			(at 214.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,7 +3797,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 205.74 92.71 0)
+			(at 214.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 97.79 0)
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 97.79 0)
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 205.74 97.79 0)
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
